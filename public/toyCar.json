@@ -1,0 +1,84 @@
+[
+  {
+    "_id": "1",
+    "photo_url": "https://i.ibb.co/s1Y1yw1/img-1.jpg",
+    "name": "Super Speed Racer",
+    "price": 19.99,
+    "rating": 4.5,
+    "quantity": 10,
+    "description": "Experience the thrill of speed with this sleek racing car. Perfect for racing enthusiasts."
+  },
+  {
+    "_id": "2",
+    "photo_url": "https://i.ibb.co/1JCGf9H/img-2.jpg",
+    "name": "Off-Road Adventure",
+    "price": 24.99,
+    "rating": 4.2,
+    "quantity": 8,
+    "description": "Conquer any terrain with this rugged off-road vehicle. It's ready for exciting outdoor adventures."
+  },
+  {
+    "_id": "3",
+    "photo_url": "https://i.ibb.co/D9n502s/img-3.jpg",
+    "name": "City Cruiser",
+    "price": 14.99,
+    "rating": 3.8,
+    "quantity": 12,
+    "description": "Explore the city streets with this stylish and compact toy car. It's perfect for urban adventures."
+  },
+  {
+    "_id": "4",
+    "photo_url": "https://i.ibb.co/Jdk3vjF/img-4.jpg",
+    "name": "Monster Truck Madness",
+    "price": 29.99,
+    "rating": 4.7,
+    "quantity": 5,
+    "description": "Get ready for some high-flying, car-crushing action with this powerful monster truck."
+  },
+  {
+    "_id": "5",
+    "photo_url": "https://i.ibb.co/xL5K881/img-5.jpg",
+    "name": "Pursuit",
+    "price": 17.99,
+    "rating": 4.1,
+    "quantity": 15,
+    "description": "Catch the bad guys with this fast and agile car. It's equipped with lights and sirens."
+  },
+  {
+    "_id": "6",
+    "photo_url": "https://i.ibb.co/fFCVtrC/img-6.jpg",
+    "name": "Convertible Cruiser",
+    "price": 22.99,
+    "rating": 4.3,
+    "quantity": 9,
+    "description": "Cruise in style with this convertible toy car. It's perfect for sunny day drives."
+  },
+  {
+    "_id": "7",
+    "photo_url": "https://i.ibb.co/WtB923J/img-7.jpg",
+    "name": "Race Track Champion",
+    "price": 39.99,
+    "rating": 4.9,
+    "quantity": 3,
+    "description": "Become a champion on the race track with this high-performance toy car. It's built for speed."
+  },
+  {
+    "_id": "8",
+    "photo_url": "https://i.ibb.co/FHG5jRF/img-8.jpg",
+    "name": "Fire Rescue Squad",
+    "price": 26.99,
+    "rating": 4.6,
+    "quantity": 7,
+    "description": "Save the day with this firefighting toy car. It comes with extendable ladders and water cannons."
+  },
+  {
+    "_id": "9",
+    "photo_url": "https://i.ibb.co/5Gmkcgp/img-9.jpg",
+    "name": "Vintage Roadster",
+    "price": 32.99,
+    "rating": 4.4,
+    "quantity": 6,
+    "description": "Take a trip back in time with this classic vintage roadster. It's a timeless piece of automotive history."
+  } 
+  
+]
