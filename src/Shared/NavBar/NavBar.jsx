@@ -39,7 +39,7 @@ const navItems = <>
   <br />
    <button className='btn btn-warning' onClick={handleLogOut}>Log Out</button>
   </>
-   :<Link to="/login">Login</Link>
+   :<button className='btn btn-secondary'><Link to="/login">Login</Link></button>
  }
   </div>
 </div>
