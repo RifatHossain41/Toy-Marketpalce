@@ -32,7 +32,7 @@ const SignUp = () => {
         <div className="hero-content flex-col lg:flex-row">
           <div className="mr-12 w-1/2">
           </div>
-          <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+          <div className="card flex-shrink-0 w-full max-w-sm hover:shadow-zinc-600 shadow-2xl bg-base-100">
             <div className="card-body">
               <h1 className="text-5xl text-center text-purple-400 font-bold">Sign Up!!!</h1>
               <form onSubmit={handleSignUp}>
