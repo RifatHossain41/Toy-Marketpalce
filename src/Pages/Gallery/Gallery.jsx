@@ -11,6 +11,7 @@ import img9 from '../../assets/image/img-9.jpg'
 const Gallery = () => {
   return (
     <div>
+      <h2 className="text-5xl text-purple-700 font-bold mb-3 text-center">The Gallery Section</h2>
       <Marquee>
         <img className="w-60" src={img2} alt="" />
         <img className="w-60" src={img3} alt="" />
@@ -22,6 +23,8 @@ const Gallery = () => {
         <img className="w-60" src={img9} alt="" />
    
       </Marquee>
+  
+      
     </div>
   );
 };

@@ -1,33 +1,98 @@
 [
   {
-    "_id": "1",
-    "photo_url": "https://i.ibb.co/s1Y1yw1/img-1.jpg",
+    "photo_url": "https://i.ibb.co/5Gmkcgp/img-9.jpg",
     "name": "Super Speed Racer",
     "price": 19.99,
     "rating": 4.5,
     "quantity": 10,
-    "description": "Experience the thrill of speed with this sleek racing car. Perfect for racing enthusiasts."
+    "description": "Experience the thrill of speed with this sleek racing car. Perfect for racing enthusiasts.",
+    "sub_category":[
+      
+        {
+          
+          "img": "https://i.ibb.co/PY8nPcF/download-1.jpg",
+          "category_name": "Mini Police Car",
+          "category_price": 19.99,
+          "category_rating": 4.5
+        },
+        {
+          
+          "img": "https://i.ibb.co/L0bhfGW/download-2.jpg",
+          "category_name": "Police Patrol Cruiser",
+          "category_price": 24.99,
+          "category_rating": 4.8
+        },
+        {
+          
+          "img": "https://i.ibb.co/1ZcdRf9/download-3.jpg",
+          "category_name": "Emergency Response Car",
+          "category_price": 29.99,
+          "category_rating": 4.2
+        }
+ 
+    ]
   },
   {
-    "_id": "2",
     "photo_url": "https://i.ibb.co/1JCGf9H/img-2.jpg",
     "name": "Off-Road Adventure",
     "price": 24.99,
     "rating": 4.2,
     "quantity": 8,
-    "description": "Conquer any terrain with this rugged off-road vehicle. It's ready for exciting outdoor adventures."
+    "description": "Conquer any terrain with this rugged off-road vehicle. It's ready for exciting outdoor adventures.",
+    "sub_category":[
+      {
+        "img": "https://i.ibb.co/vJp7KRQ/download-5.jpg",
+        "category_name": "Sports Car A",
+        "category_price": 50000,  
+        "category_rating": 4.5
+      },
+      {
+        
+        "img": "https://i.ibb.co/ZKh7hP7/download-6.jpg",
+        "category_name": "Sports Car B",
+        "category_price": 75000,
+        "category_rating": 4.8
+      },
+      {
+        
+        "img": "https://i.ibb.co/TPbMB56/download-7.jpg",
+        "category_name": "Sports Car C",
+        "category_price": 100000,
+        "category_rating": 4.9
+      }
+    ]
   },
   {
-    "_id": "3",
     "photo_url": "https://i.ibb.co/D9n502s/img-3.jpg",
     "name": "City Cruiser",
     "price": 14.99,
     "rating": 3.8,
     "quantity": 12,
-    "description": "Explore the city streets with this stylish and compact toy car. It's perfect for urban adventures."
+    "description": "Explore the city streets with this stylish and compact toy car. It's perfect for urban adventures.",
+    "sub_category": [
+      {
+        "img": "https://i.ibb.co/tMwgzp2/download-8.jpg",
+        "category_name": "Toyota Camry",
+        "category_price": 25000,
+        "category_rating": 4.5
+      },
+      {
+        
+        "img": "https://i.ibb.co/6y9DsZY/download-9.jpg",
+        "category_name": "Honda Civic",
+        "category_price": 22000,
+        "category_rating": 4.2
+      },
+      {
+        
+        "img": "https://i.ibb.co/w4XRPpz/download-10.jpg",
+        "category_name": "Ford Mustang",
+        "category_price": 35000,
+        "category_rating": 4.8
+      }
+    ]
   },
   {
-    "_id": "4",
     "photo_url": "https://i.ibb.co/Jdk3vjF/img-4.jpg",
     "name": "Monster Truck Madness",
     "price": 29.99,
@@ -36,7 +101,6 @@
     "description": "Get ready for some high-flying, car-crushing action with this powerful monster truck."
   },
   {
-    "_id": "5",
     "photo_url": "https://i.ibb.co/xL5K881/img-5.jpg",
     "name": "Pursuit",
     "price": 17.99,
@@ -45,7 +109,6 @@
     "description": "Catch the bad guys with this fast and agile car. It's equipped with lights and sirens."
   },
   {
-    "_id": "6",
     "photo_url": "https://i.ibb.co/fFCVtrC/img-6.jpg",
     "name": "Convertible Cruiser",
     "price": 22.99,
@@ -54,7 +117,6 @@
     "description": "Cruise in style with this convertible toy car. It's perfect for sunny day drives."
   },
   {
-    "_id": "7",
     "photo_url": "https://i.ibb.co/WtB923J/img-7.jpg",
     "name": "Race Track Champion",
     "price": 39.99,
@@ -63,7 +125,6 @@
     "description": "Become a champion on the race track with this high-performance toy car. It's built for speed."
   },
   {
-    "_id": "8",
     "photo_url": "https://i.ibb.co/FHG5jRF/img-8.jpg",
     "name": "Fire Rescue Squad",
     "price": 26.99,
@@ -72,8 +133,7 @@
     "description": "Save the day with this firefighting toy car. It comes with extendable ladders and water cannons."
   },
   {
-    "_id": "9",
-    "photo_url": "https://i.ibb.co/5Gmkcgp/img-9.jpg",
+    "photo_url": "https://i.ibb.co/s1Y1yw1/img-1.jpg",
     "name": "Vintage Roadster",
     "price": 32.99,
     "rating": 4.4,

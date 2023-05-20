@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import img2 from '../../assets/image/img-11.jpg'
+// import img2 from '../../assets/image/img-11.jpg'
 import img from '../../assets/image/img-10.jpg'
 import { useContext } from 'react';
 import { AuthContext } from '../../provider/AuthProvider';
@@ -17,6 +17,15 @@ const NavBar = () => {
 const navItems = <>
   <li><Link to="/">Home</Link></li>
   <li><Link to="/blog">Blog</Link></li>
+  <li><Link to="/alltoys">All Toys</Link> </li>
+  {
+      user?.email ? <>
+           <li><Link to="/mytoys">My Toys</Link></li>  
+           <li><Link to="/addtoys">Add Toys</Link></li>  
+           <button className='btn btn-warning' onClick={handleLogOut}>Log Out</button>   
+      </>
+      :<Link to="/login">Login</Link>
+  }
   </>
 
 
@@ -30,17 +39,20 @@ const navItems = <>
     <ul className="menu menu-horizontal px-1">
       
       {navItems}
+      
     </ul>
+    
   </div>
   <div className="navbar-end">
-  { 
+  {/* { 
   user?.email ?  <>
   <img className='rounded-lg w-20 mr-4' src={img2} alt="" />
   <br />
-   <button className='btn btn-warning' onClick={handleLogOut}>Log Out</button>
+   
+   
   </>
    :<button className='btn btn-secondary'><Link to="/login">Login</Link></button>
- }
+ } */}
   </div>
 </div>
   );

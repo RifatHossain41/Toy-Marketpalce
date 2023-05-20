@@ -11,8 +11,14 @@ const Banner = () => {
           <img
             src={img10}
             className="w-full rounded-xl"
-            
           />
+          <div className="absolute flex justify-center items-end rounded-lg h-full ">
+            <div className="text-purple-600 pl-12 pb-8 text-center">
+              <h2 className='text-6xl font-bold'>Toy Marketplace </h2>
+              <p className="mb-3 mt-3">Conquer any terrain with this rugged off-road vehicle. It is ready for exciting outdoor adventures.</p>
+              <button className="btn btn-outline btn-secondary">Latest Car</button>
+            </div>
+          </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" className="btn btn-circle btn-error">
               ❮
@@ -27,6 +33,13 @@ const Banner = () => {
             src={img2}
             className="w-full rounded-xl"
           />
+           <div className="absolute flex justify-center items-end rounded-lg h-full ">
+            <div className="text-purple-600 pl-12 pb-8 text-center">
+              <h2 className='text-6xl font-bold'>Toy Marketplace </h2>
+              <p className="mb-3 mt-3">Conquer any terrain with this rugged off-road vehicle. It is ready for exciting outdoor adventures.</p>
+              <button className="btn btn-outline btn-secondary">Latest Car</button>
+            </div>
+          </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="btn btn-circle btn-error">
               ❮
@@ -41,6 +54,13 @@ const Banner = () => {
             src={img3}
             className="w-full rounded-xl"
           />
+           <div className="absolute flex justify-center items-end rounded-lg h-full ">
+            <div className="text-purple-600 pl-12 pb-8 text-center">
+              <h2 className='text-6xl font-bold'>Toy Marketplace </h2>
+              <p className="mb-3 mt-3">Conquer any terrain with this rugged off-road vehicle. It is ready for exciting outdoor adventures.</p>
+              <button className="btn btn-outline btn-secondary">Latest Car</button>
+            </div>
+          </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" className="btn btn-circle btn-error">
               ❮
@@ -55,6 +75,13 @@ const Banner = () => {
             src={img4}
             className="w-full rounded-xl"
           />
+           <div className="absolute flex justify-center items-end rounded-lg h-full ">
+            <div className="text-purple-600 pl-12 pb-8 text-center">
+              <h2 className='text-6xl font-bold'>Toy Marketplace </h2>
+              <p className="mb-3 mt-3">Conquer any terrain with this rugged off-road vehicle. It is ready for exciting outdoor adventures.</p>
+              <button className="btn btn-outline btn-secondary">Latest Car</button>
+            </div>
+          </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" className="btn btn-circle btn-error">
               ❮
