@@ -1,11 +1,11 @@
-import { useContext } from "react";
+
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
-import { AuthContext } from "../../provider/AuthProvider";
+
 
 
 const UpdedToys = ({value}) => {
-  const { user } = useContext(AuthContext)
+
   const { _id, name, quantity, sellerName, category, price, description} = value;
 
   const handleDelete = _id => {

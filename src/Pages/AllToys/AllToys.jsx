@@ -1,10 +1,10 @@
-import { useContext, useEffect, useState } from "react";
-import { AuthContext } from "../../provider/AuthProvider";
+import { useEffect, useState } from "react";
+
 import ToyCard from "./ToyCard";
 
 
 const AllToys = () => {
-  const { user } = useContext(AuthContext)
+
   const [examples, setExamples] = useState([])
 
 
