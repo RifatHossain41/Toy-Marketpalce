@@ -1,8 +1,11 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
+import { AuthContext } from "../../provider/AuthProvider";
 
 
 const UpdedToys = ({value}) => {
+  const { user } = useContext(AuthContext)
   const { _id, name, quantity, sellerName, category, price, description} = value;
 
   const handleDelete = _id => {
@@ -43,9 +46,9 @@ const UpdedToys = ({value}) => {
         <td>{sellerName}</td>
         <td>{category}</td>
         <td>{description}</td>
-        {/* <Link to={`updateForm/${_id}`}>
+        <Link to={`update/${_id}`}>
           <td><button className="btn btn-warning">Edit</button></td>
-        </Link> */}
+        </Link>
           <td><button onClick={() => handleDelete(_id)} className="btn btn-danger">Delete</button></td>
       </tr>
 
