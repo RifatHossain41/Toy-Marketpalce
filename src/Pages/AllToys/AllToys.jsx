@@ -4,7 +4,7 @@ import ToyCard from "./ToyCard";
 
 
 const AllToys = () => {
-  const {user} = useContext(AuthContext)
+  const { user } = useContext(AuthContext)
   const [examples, setExamples] = useState([])
 
 

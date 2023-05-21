@@ -26,6 +26,8 @@ const MyToys = () => {
               <th>SellerName</th>
               <th>Category</th>
               <th>Description</th>
+              <th>Update</th>
+              <th>Deleted</th>
             </tr>
           </thead>
           <tbody>
