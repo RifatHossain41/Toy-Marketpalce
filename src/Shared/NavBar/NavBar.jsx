@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-// import img2 from '../../assets/image/img-11.jpg'
+import img2 from '../../assets/image/img-11.jpg'
 import img from '../../assets/image/img-10.jpg'
 import { useContext } from 'react';
 import { AuthContext } from '../../provider/AuthProvider';
@@ -44,15 +44,15 @@ const navItems = <>
     
   </div>
   <div className="navbar-end">
-  {/* { 
+ { 
   user?.email ?  <>
   <img className='rounded-lg w-20 mr-4' src={img2} alt="" />
-  <br />
-   
-   
+ 
   </>
    :<button className='btn btn-secondary'><Link to="/login">Login</Link></button>
- } */}
+ } 
+ 
+ { user?.email && (<img src={user.photoURL} alt="" />)}
   </div>
 </div>
   );

@@ -14,7 +14,7 @@ const ToyDetails = () => {
           <h2 className="card-title">{name}</h2>
           <p>SellerName: {sellerName}</p>
           <p>Email: {email}</p>
-          <p>Price: {price}</p>
+          <p>Price: ${price}</p>
           <p>Rating: {rating}</p>
           <p>Quantity: {quantity}</p>
           <p>{description}</p>

@@ -30,6 +30,7 @@ const AddToys = () => {
      .then(res => res.json())
      .then(data => {
       console.log(data)
+      form.reset();
      })
   }
 

@@ -1,10 +1,11 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 
 
 
 const Login = () => {
+  const navigate = useNavigate()
   
   const { signIn, handleGoogleSignIn } = useContext(AuthContext);
 
@@ -20,6 +21,7 @@ const Login = () => {
       const user = result.user;
       console.log(user)
       form.reset();
+      navigate('/')
     })
     .catch(error => console.log(error))
   }

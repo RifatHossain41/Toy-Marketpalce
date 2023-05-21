@@ -7,7 +7,7 @@ const ToyCard = ({example}) => {
   return (
     <tr>
         <td>{name}</td>
-        <td>{price}</td>
+        <td>${price}</td>
         <td>{quantity}</td>
         <td>{sellerName}</td>
         <td>{category}</td>
